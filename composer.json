@@ -1,0 +1,7 @@
+{
+    "name": "cu-boulder/web_components",
+    "description": "A collection of web component media types",
+    "license": "MIT",
+    "homepage": "https://github.com/CuBoulder/Web-Components",
+    "type": "drupal-module"
+}
