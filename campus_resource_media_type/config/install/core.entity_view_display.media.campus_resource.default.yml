@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.campus_resource.field_media_image_1
+    - field.field.media.campus_resource.field_resource_name
+    - media.type.campus_resource
+id: media.campus_resource.default
+targetEntityType: media
+bundle: campus_resource
+mode: default
+content:
+  name:
+    type: string
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_image_1: true
+  field_resource_name: true
+  thumbnail: true
+  uid: true

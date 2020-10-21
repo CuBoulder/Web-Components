@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.campus_resource.field_media_image_1
+    - field.field.media.campus_resource.field_resource_name
+    - image.style.thumbnail
+    - media.type.campus_resource
+  module:
+    - image
+id: media.campus_resource.media_library
+targetEntityType: media
+bundle: campus_resource
+mode: media_library
+content:
+  field_media_image_1:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_resource_name: true
+  path: true
+  status: true
+  uid: true

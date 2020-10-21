@@ -1,0 +1,13 @@
+name: 'Campus Resource Media Type'
+description: 'Provides a campus resource web component'
+type: module
+package: 'CU Web Components'
+core: 8.x
+dependencies:
+  - field
+  - image
+  - media
+  - options
+  - path
+core_version_requirement: ^8 || ^9
+

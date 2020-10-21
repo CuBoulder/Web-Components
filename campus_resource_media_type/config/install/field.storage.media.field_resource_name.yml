@@ -1,0 +1,536 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - options
+id: media.field_resource_name
+field_name: field_resource_name
+entity_type: media
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 45a9e612-a04f-4ce6-bc18-e8865a9730f9
+      label: 'College of Arts & Sciences Advising'
+    -
+      value: 506c063f-a4a0-46c7-9741-97e3814770af
+      label: 'College of Engineering & Applied Science Advising'
+    -
+      value: 9194b26b-b01e-4cc6-ac15-f89aa6c41073
+      label: 'College of Media, Communication & Information (CMCI) Advising'
+    -
+      value: 4a6d690a-6bbf-4c52-a927-fd6cd5885922
+      label: 'College of Music Advising'
+    -
+      value: 1d164e62-5bd8-458f-bc66-2f9817939d8b
+      label: 'Continuing Education Advising'
+    -
+      value: dd47fa03-535d-45e8-8352-1aeb7f1ae849
+      label: 'Leeds School of Business Advising'
+    -
+      value: 4d4bfe33-7cd2-46bb-8bbb-c234adbbadc8
+      label: 'Program in Environmental Design Advising'
+    -
+      value: b77ef0fe-4b91-4cb2-aee0-1b4fdd3e91b5
+      label: 'School of Education Advising'
+    -
+      value: 949e9240-101d-4ee7-9f5f-7225756af896
+      label: 'University Exploration & Advising Center'
+    -
+      value: c4d8bff6-1022-4147-91f3-ac80175d02bc
+      label: 'Student Academic Success Center (SASC)'
+    -
+      value: 3f882f93-d7e1-4768-b70e-ae5bca4b1d42
+      label: 'Business Library'
+    -
+      value: ee0ca2c2-f923-4bc1-89d5-43c8d3fd06af
+      label: 'Earth Sciences & Map Library'
+    -
+      value: 21c00827-2a64-43e5-8c02-d8b75af70b7d
+      label: 'Engineering, Math & Physics Library'
+    -
+      value: 2b87547a-bd1a-4eb4-9112-ac952427c74e
+      label: 'Law Library'
+    -
+      value: dde26d79-e227-43ab-b814-6fd0654ee4b2
+      label: 'Music Library'
+    -
+      value: 851e3961-6bf6-4f23-a7cf-d0a814b4aa68
+      label: 'Norlin Library (main)'
+    -
+      value: 6ad50620-00b6-497a-8dc1-5d5c244df3a4
+      label: 'Academic Success & Achievement Program (ASAP)'
+    -
+      value: 9880627d-696c-4779-95ed-db7c85468c5c
+      label: 'Gay, Lesbian, Bisexual & Transgender Resources'
+    -
+      value: 950beaea-7c52-45b3-b406-713ce230ecfc
+      label: 'International Student & Scholar Services (ISSS)'
+    -
+      value: 57e6d1aa-c0c6-4b8f-9885-b0d84baf78da
+      label: 'Student Affairs'
+    -
+      value: 9e423504-a98a-46db-a9f6-9d93979e709f
+      label: 'Student Support & Case Management (SSCM)'
+    -
+      value: 41c733c8-01b7-4456-b4bb-7bf608f366b8
+      label: 'Veteran & Military Affairs'
+    -
+      value: aca5cbcc-e783-42a6-8273-ef4e129022a9
+      label: 'Writing Center'
+    -
+      value: 98f6dbe5-8b8f-4e8e-a1e0-49aeea841bec
+      label: 'Center for Inclusion & Social Change (CISC)'
+    -
+      value: 7aef5fb0-39ea-4e70-9dab-59daf14992e4
+      label: 'Cultural Events Board'
+    -
+      value: ffd37d3e-10fb-4bf0-b8b9-969ab3d5c7fd
+      label: 'Dennis Small Cultural Center'
+    -
+      value: c9769206-35c5-48a7-a3a9-52382507575c
+      label: 'Multicultural Greek Council'
+    -
+      value: db35921a-2077-4105-b11f-cd4173247d82
+      label: 'Center for Student Involvement (CSI)'
+    -
+      value: 9d514b28-6dba-4621-9098-bab12676c8a3
+      label: 'Clubs & Organizations'
+    -
+      value: 0be28bb2-500d-4941-9836-46f17d260542
+      label: 'CU Gold'
+    -
+      value: 72ed3e26-7f20-462a-a1ac-a4eb652c7ded
+      label: 'Greek Life'
+    -
+      value: d7fc9ff0-0e81-4ef2-a7cd-48592d8f0ae6
+      label: 'Student Government'
+    -
+      value: f0458653-eb75-4292-8ac7-7daff5f68eb7
+      label: 'Student Group Directory'
+    -
+      value: 90ca82fd-8b50-464e-b849-da16824c9f74
+      label: 'Volunteer Resource Center'
+    -
+      value: e10605f0-4fc1-4652-9f33-8c793d0cb334
+      label: 'Colorado Creed'
+    -
+      value: 02126449-b188-4a63-b6d3-cccea2c95d08
+      label: 'Honor Code'
+    -
+      value: 3a878b4a-5d15-4bfc-95d6-b248b80af6ee
+      label: 'Student Conduct & Conflict Resolution'
+    -
+      value: 6404d810-46e9-46f8-9932-07e67a7ba778
+      label: 'Collegiate Recovery Center'
+    -
+      value: f4268903-c094-41de-af1a-993ba9e5d2d8
+      label: 'Office of Victim Assistance (OVA)'
+    -
+      value: 459dcd25-6038-461b-a918-0a8103d01e32
+      label: 'SilverCloud Online Emotional Health Program'
+    -
+      value: e9c8287f-2016-414c-af8b-891d9fa991c6
+      label: 'Counseling & Psychiatric Services (CAPS)'
+    -
+      value: d10d286e-fa26-4223-8d6c-e9b26286b222
+      label: 'Certification Classes'
+    -
+      value: 4fe876b0-1c49-47db-9096-7f4094ed19ac
+      label: 'Dance Classes'
+    -
+      value: 587d0bdf-9363-4c70-b3e9-f3bb5f860c86
+      label: 'Fitness Leadership Program'
+    -
+      value: b2e98aca-b34e-4f40-ad7c-b67b8c05c0f2
+      label: 'Martial Arts Classes'
+    -
+      value: e6fb360c-f904-4645-ae4c-b8d6cf129935
+      label: 'Outreach Fitness Programs'
+    -
+      value: d0ccd621-9b56-47a3-b118-56293f22b4ca
+      label: 'Pilates Reformer'
+    -
+      value: 3aa1cece-c902-483d-8c46-7e86f979ad9e
+      label: 'Small Group Training'
+    -
+      value: e64910bd-4cce-4d9d-8f20-ec0b2f3e7186
+      label: 'Specialty Fitness & Wellness Programs'
+    -
+      value: a92231b1-70f7-4c8c-87fb-bb70803618c0
+      label: 'Swim Lessons'
+    -
+      value: b0781196-98c7-4028-ba3d-2ea0f41b5c44
+      label: 'Tennis Instruction'
+    -
+      value: b21f836e-561c-40b8-ad16-dad76106afcd
+      label: 'Training Services'
+    -
+      value: 0f4fd01b-617d-43e5-8f7b-bc1cb43227ab
+      label: 'Allergy Shots'
+    -
+      value: 67475986-73f4-471b-bbde-6ff2a735acfc
+      label: 'Chiropractic Care'
+    -
+      value: ff3321cb-5df7-4163-8c8b-f658e8da7678
+      label: 'Flu Shots & Vaccinations'
+    -
+      value: f6f14392-80b7-46ef-83ba-2401e2f09e19
+      label: 'Lab Services'
+    -
+      value: b47579d3-ad04-4775-aba1-ca0c131d5a24
+      label: 'Medical Services'
+    -
+      value: a7f11e70-c6dd-4704-8f6d-006196392fe1
+      label: 'Orthopedic Care'
+    -
+      value: 605bc8b5-b29a-48da-bb97-599a062e9ac7
+      label: Pharmacy
+    -
+      value: fa38cd29-0d60-4fb3-a767-02de5752c813
+      label: 'Primary Care'
+    -
+      value: 437e4ae6-973c-4395-8441-94413afef56d
+      label: 'Sexual & Reproductive Health'
+    -
+      value: 366fb847-dd9e-4d13-8097-75a9600cac62
+      label: 'STI Testing & Sexual Health Exams'
+    -
+      value: 0ce85220-4ee5-453b-ba2e-9ed8fd748ca9
+      label: 'Student Health Insurance'
+    -
+      value: bf919073-6e25-46cc-9aee-74b71a85ebec
+      label: 'Travel Clinic'
+    -
+      value: 5da8cacf-9723-4e95-bdd5-9597d927b674
+      label: 'X-Ray Services'
+    -
+      value: d73daf3b-f649-4938-88bb-38f5daeb6468
+      label: Massage
+    -
+      value: 2c8340c5-fd2b-4d2e-978b-2d8d78cc635a
+      label: 'Disability Services'
+    -
+      value: 7d04d263-a853-46c9-a750-7ae8c29d5786
+      label: 'Nutrition Services'
+    -
+      value: f0c03533-6a57-4ae9-8613-1419dcf4d3c6
+      label: 'Physical Therapy'
+    -
+      value: 7fde061e-cac1-452d-a1fe-1662ee2e64ea
+      label: 'Women’s Resources'
+    -
+      value: 4c99cb27-0b65-4391-a36f-32199a600557
+      label: 'Health Promotion'
+    -
+      value: 86d72d5e-323b-4354-a856-f8eff565e4bc
+      label: 'Career Services'
+    -
+      value: 56e449ec-4114-4032-8ed3-9f184e964d9d
+      label: CliftonStrengths
+    -
+      value: d9d5b3dc-fb87-47a0-b446-38f3463e849b
+      label: Internships
+    -
+      value: 0d73ee5e-3b73-414c-b3c1-e131e9eec412
+      label: 'Student Employment'
+    -
+      value: 4dbd0e1e-a012-4924-b0c5-a88b6f2ad9da
+      label: 'Alferd Packer Grill'
+    -
+      value: fc4344a4-8aaa-4687-b1f6-c9ca74c2c2b4
+      label: 'Center for Community (C4C) Dining Center'
+    -
+      value: f8e078b0-2316-4e47-a1ce-043e180dc30d
+      label: 'CU Bookstore'
+    -
+      value: 3c856f3a-2791-45fa-ae08-d7e23568a54e
+      label: 'CU on the Run Grab-n-Go'
+    -
+      value: 991910ae-1fab-49fb-bb61-8efe452540da
+      label: 'Dalton Trumbo Fountain Court'
+    -
+      value: 880d6451-bb11-4b94-8a9a-781a657f8576
+      label: 'Etai''s Bakery Cafe'
+    -
+      value: 0de0842a-e93a-4f87-8397-774e84ff355b
+      label: 'Farrand Market'
+    -
+      value: 3a3886b7-80e5-47db-8c0a-d7cde09511d3
+      label: 'Kittredge Market'
+    -
+      value: 23d954da-0de5-49c1-b7a3-9b0d598cafd7
+      label: 'SEEC Cafe'
+    -
+      value: 5d936961-fef9-4f63-8969-1c5903a1cc1d
+      label: 'Sewall Dining Center'
+    -
+      value: d69121cc-c651-4d67-bdfe-59825136f43a
+      label: 'Sewall Market'
+    -
+      value: 0653b25c-ad66-4b7a-93c8-60db5b380687
+      label: Starbucks
+    -
+      value: eb682b2b-744e-4381-8578-545d78584bb6
+      label: 'The Alley'
+    -
+      value: 28902eb5-f377-4afb-b36c-93186c7e24be
+      label: 'The Bakery'
+    -
+      value: df4fd656-ac75-4964-a119-69fc8d1b6707
+      label: 'The Grotto'
+    -
+      value: bb900905-f2e3-4213-b39f-e1db5f1b4ed1
+      label: 'The Laughing Goat Coffeehouse'
+    -
+      value: 23eb71bc-b602-495f-98aa-3f855cd0f424
+      label: 'Toast on the Run'
+    -
+      value: 74247a1d-dcc1-4980-890a-2697323a2db2
+      label: 'UMC Market'
+    -
+      value: fc3db916-b021-4f36-a7cb-ab7c79145dc3
+      label: 'Village Dining Center'
+    -
+      value: 42ce6086-36c7-49dd-84f6-27f75f1fbdc6
+      label: 'Village Market'
+    -
+      value: 7b1c7b8b-3d83-4738-a5b3-e8021bc19647
+      label: 'WeatherTech Cafe'
+    -
+      value: 277b2929-d6e1-4afb-8bd6-df8755ad073a
+      label: 'Program Council'
+    -
+      value: 7644990d-381e-4e1f-8fd5-fb8f4016c40b
+      label: 'The Connection'
+    -
+      value: 1bb65081-9a74-4a25-93b4-32262048dc70
+      label: 'University Memorial Center (UMC)'
+    -
+      value: 0577f33b-3c09-42af-b907-234410566ac0
+      label: Housing
+    -
+      value: 5e1abcba-97df-4e68-ae00-abd1a896dc7f
+      label: 'Residence Hall Association (RHA)'
+    -
+      value: 871f932d-d5e4-46f5-ac9a-df55853ed4c5
+      label: 'Residence Halls'
+    -
+      value: 49af60dd-6f68-4873-b78a-9016fb19cc39
+      label: 'Art Museum'
+    -
+      value: c895f50f-b2b5-4a93-ad79-9ea576dc885f
+      label: 'CU Heritage Center'
+    -
+      value: 71914c1e-b5ea-47bf-959e-a01eb4b48590
+      label: 'Fiske Planetarium'
+    -
+      value: 49c21917-7ccc-437b-b309-4f8faad902e2
+      label: 'Macky Auditorium'
+    -
+      value: 0195f50b-a27f-4f61-a873-6a47f575707f
+      label: 'Museum of Natural History'
+    -
+      value: 1f591966-f43a-4e34-8ddd-2b754f9bce9b
+      label: 'Intramural Sports'
+    -
+      value: 94041729-3a7d-40f6-a624-a5ca38d2d05f
+      label: 'Outdoor Program'
+    -
+      value: d37c66f1-bdae-4cc5-90e7-c84f24e51515
+      label: 'Recreation Center'
+    -
+      value: 590ca68f-6aa8-4988-9756-ae34cf4c80eb
+      label: 'Sport Clubs'
+    -
+      value: 2758d12c-2a96-4ede-a70a-855187666413
+      label: 'Office of Institutional Equity & Compliance (OIEC)'
+    -
+      value: 6fb00db7-0520-4a9d-8608-3f6aef5aac93
+      label: 'Office of Student Conduct & Conflict Resolution (OSCCR)'
+    -
+      value: 5efeeade-00e1-4150-b399-d8f74727e8a3
+      label: 'Ombuds Office'
+    -
+      value: b8216f02-689c-4c98-b63f-2258f58ec128
+      label: 'Student Legal Services'
+    -
+      value: 986677e3-0e9f-4d3a-8530-ca6d9c54751d
+      label: 'Students of Concern'
+    -
+      value: de14be13-89fd-441c-b139-87d97a13ca69
+      label: 'Suicide Prevention'
+    -
+      value: df6268a1-1f3d-40da-b19e-1658e0a012b7
+      label: 'Campus Alerts'
+    -
+      value: da8ab5b4-0d6b-4054-ab70-cf59beb83459
+      label: 'Campus Closures'
+    -
+      value: 450b7aab-531d-481f-b066-4a57c4ebad7e
+      label: 'Campus Emergencies & Hazards'
+    -
+      value: 8e84c65b-fbc4-4be9-8999-4e355327d12a
+      label: 'Emergency Management'
+    -
+      value: 359d7a29-59d0-49d2-ad94-1940e7298212
+      label: 'Environmental Health & Safety'
+    -
+      value: cbdc80c3-496a-4b86-8f12-02c311416515
+      label: 'Personal Emergency Preparedness Checklist'
+    -
+      value: c938921e-b10f-4270-86c7-fdc8f7fd6b7d
+      label: 'CU Boulder Police'
+    -
+      value: 369046b3-bc5f-4562-aa1c-dc270378952b
+      label: 'Crime Prevention'
+    -
+      value: b186a030-c768-459c-864b-75bf9f6b1a28
+      label: 'CU NightRide'
+    -
+      value: 3467745e-2815-4d77-a527-338df247807b
+      label: Crime/Incident
+    -
+      value: e06c3cc3-1a21-49b9-a14b-53002c08796f
+      label: 'Don''t Ignore It'
+    -
+      value: c503e676-3eb6-40a3-bafd-d0ae7b5dc688
+      label: 'Lighting & Maintenance'
+    -
+      value: ac9764e8-1e6d-4145-b569-34a0c578aa31
+      label: 'G Suite'
+    -
+      value: 30afeef0-8d4c-4318-b622-c673ba9f8b18
+      label: 'IdentiKey Manager'
+    -
+      value: 9d4c2ea9-c504-48d5-83dc-1fd22bbc26e2
+      label: 'IT Support'
+    -
+      value: 6ff9e003-a81f-4139-8169-e22e083f082a
+      label: 'Office 365'
+    -
+      value: eb359359-0b8f-4cad-b3ab-4d775be09270
+      label: 'VPN (Virtual Private Network)'
+    -
+      value: d1d34d4b-11c5-48d1-bdd4-01bc3e00077e
+      label: Wi-Fi
+    -
+      value: 1eb36116-73e3-4bba-857d-7821db1479eb
+      label: 'Academic Technology Design Team (ATDT)'
+    -
+      value: 1c3f8651-3e14-4ed0-b655-6ed97fd92318
+      label: 'Accessible Technology'
+    -
+      value: 15e6f80e-5faa-4af7-842b-2087cce4023d
+      label: 'Office of Information Technology (OIT)'
+    -
+      value: 3e0ef188-d5cb-447d-b00d-e5b1a6fd3a39
+      label: 'Walk-In Tech Support'
+    -
+      value: 044bfb64-4dd5-447d-8ed4-2bcab381b106
+      label: 'Buff Portal (Student Portal)'
+    -
+      value: 18692a14-c09c-47f7-8f62-d2d35994765f
+      label: 'Campus eMemo'
+    -
+      value: 4b1266e1-5f00-4550-9c37-414d0490ac6d
+      label: 'Campus Events Calendar'
+    -
+      value: 61d5f592-1bce-4ff4-a941-d357c6010d28
+      label: Canvas
+    -
+      value: 126defd2-a9f7-460f-9f09-f798be107bc8
+      label: 'Class Search'
+    -
+      value: 1a229714-d022-42ae-8eb3-1af3c7885f30
+      label: 'Course Roster Email'
+    -
+      value: 1f278dc7-858e-4a55-b6e7-c16609d0fadc
+      label: 'Exchange Email'
+    -
+      value: 26af43b8-62d7-4b25-be39-af3905996029
+      label: Lynda.com
+    -
+      value: 8dd33812-fc57-4eca-a49c-f79d05bed599
+      label: 'my.CU.edu (CU System Employee Portal)'
+    -
+      value: 2511476c-42c5-4720-a87b-3fdd80034ca3
+      label: 'myCUinfo (CU Boulder Employee Portal)'
+    -
+      value: 6e50a4bd-7d62-4ec2-9a3f-8d200f7108d1
+      label: 'Buff OneCard'
+    -
+      value: 4c45ff90-6cae-48b8-910e-35c1be7d86c5
+      label: 'Course Registration'
+    -
+      value: d5dccafe-0176-49f8-b157-49b4177681c6
+      label: 'Degree Planning'
+    -
+      value: 370647c8-9985-45fc-9366-4b19dd6b80ff
+      label: 'Graduation & Commencement'
+    -
+      value: fe47bb69-02d8-428b-8df9-2e4abb5a69fc
+      label: Registrar
+    -
+      value: 39b1f8ee-6ccc-4cdd-9489-fd4936f4fa53
+      label: 'Retroactive Withdrawal'
+    -
+      value: e094ac0f-76c2-4839-b22a-91e82b3ebe75
+      label: 'University Catalog'
+    -
+      value: d51f3e38-4f51-4248-a4aa-a0e5197a85c3
+      label: 'Academic Calendar'
+    -
+      value: d38400db-5897-4c27-b81a-fae0c40e99ed
+      label: Billing
+    -
+      value: cc3e189d-17d1-48be-8cb3-11b5607b09d3
+      label: 'Bursar''s Office'
+    -
+      value: e187a5ca-f41c-45fd-948b-7f820a4df7ae
+      label: 'Financial Aid'
+    -
+      value: 781d9f82-f319-41d6-9c62-8de3de259cbf
+      label: 'Money Sense'
+    -
+      value: e944421b-93e9-4e80-be0d-169109e8cfd4
+      label: Payments
+    -
+      value: 1125bc31-cfe8-4c35-95d8-6f4570b8bfb2
+      label: Refunds
+    -
+      value: 9de16010-df9b-45e8-8dc2-5382f59a76f3
+      label: Scholarships
+    -
+      value: 8f790f35-6ced-444f-b970-aca919e32660
+      label: 'Tax Info'
+    -
+      value: f55dd52c-c6ea-4f30-bdf5-16b39976419e
+      label: 'Tuition & Fees'
+    -
+      value: 53b64998-464d-4c61-80f1-b62745e47972
+      label: 'IRS Data Retrieval'
+    -
+      value: eec2afe4-a535-427b-b4b8-927313ed0596
+      label: 'Tuition Classification'
+    -
+      value: 1307eca4-9e58-4664-9031-6f14795b52e0
+      label: 'Records & Privacy'
+    -
+      value: 63c75b64-16f6-4335-a66c-d3c8abadf94e
+      label: Transcripts
+    -
+      value: f4d189c7-a0b8-4f1e-878d-d8d911c1f3fc
+      label: 'Faculty & Staff Assistance Program (FSAP)'
+    -
+      value: e51c411b-8869-49fb-87ce-938bcd41af53
+      label: 'City of Boulder Police'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

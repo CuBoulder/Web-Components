@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_resource_name
+    - media.type.campus_resource
+  module:
+    - options
+id: media.campus_resource.field_resource_name
+field_name: field_resource_name
+entity_type: media
+bundle: campus_resource
+label: 'Resource Name'
+description: 'Select which resource you would like to show'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
