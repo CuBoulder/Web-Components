@@ -16,3 +16,4 @@ composer require cu-boulder/web_components dev-main
 Make sure these keys exist in the exported feature module (.info.yml)
 - core_version_requirement: ^8 || ^9
 - package: 'CU Web Components'
+- media_library as a dependency
